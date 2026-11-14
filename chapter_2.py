@@ -11,3 +11,16 @@ class Dog:
         mydog=Dog('willie',6)
         print(f"my dog name is {mydog.name}")
         print(f"my dog is {mydog.age} years old")
+
+        #calling methods
+        mydog.sit()
+        mydog.roll_over()
+
+        ##creating multiple instances
+        yourdog=Dog('lucy',3)
+        print(f"your dog name if is {yourdog.name}")
+        print(f"lucy age is {yourdog.age}")
+        yourdog.roll_over()
+        
+
+
